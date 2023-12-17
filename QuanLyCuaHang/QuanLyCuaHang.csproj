@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FormQuanLyKhuyenMai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyKhuyenMai.Designer.cs">
+      <DependentUpon>FormQuanLyKhuyenMai.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormQuanLyNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,12 @@
     <Compile Include="Forms\FormTrangChu.Designer.cs">
       <DependentUpon>FormTrangChu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormXemDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormXemDoanhThu.Designer.cs">
+      <DependentUpon>FormXemDoanhThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +78,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormQuanLyKhuyenMai.resx">
+      <DependentUpon>FormQuanLyKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormQuanLyNhanVien.resx">
       <DependentUpon>FormQuanLyNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormTrangChu.resx">
       <DependentUpon>FormTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormXemDoanhThu.resx">
+      <DependentUpon>FormXemDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>

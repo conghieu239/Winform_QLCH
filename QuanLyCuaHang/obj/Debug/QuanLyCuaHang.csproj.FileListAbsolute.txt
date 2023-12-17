@@ -18,3 +18,5 @@ D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\bin\Debug\BUS_QLCH.pdb
 D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\bin\Debug\DTO_QLCH.pdb
 D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\bin\Debug\DAL_QLCH.pdb
 D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.csproj.CopyComplete
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormQuanLyKhuyenMai.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormXemDoanhThu.resources

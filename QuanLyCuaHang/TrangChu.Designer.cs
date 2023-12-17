@@ -116,6 +116,7 @@
             this.btnKhuyenMai.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhuyenMai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnKhuyenMai.UseVisualStyleBackColor = true;
+            this.btnKhuyenMai.Click += new System.EventHandler(this.btnKhuyenMai_Click);
             // 
             // btnDoanhThu
             // 
@@ -134,6 +135,7 @@
             this.btnDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDoanhThu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDoanhThu.UseVisualStyleBackColor = true;
+            this.btnDoanhThu.Click += new System.EventHandler(this.btnDoanhThu_Click);
             // 
             // btnKhachHang
             // 

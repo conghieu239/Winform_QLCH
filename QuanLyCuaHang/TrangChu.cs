@@ -45,5 +45,15 @@ namespace QuanLyCuaHang
             OpenChildForm(new Forms.FormTrangChu(), sender);
 
         }
+
+        private void btnKhuyenMai_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormQuanLyKhuyenMai(), sender);
+        }
+
+        private void btnDoanhThu_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormXemDoanhThu(), sender);
+        }
     }
 }

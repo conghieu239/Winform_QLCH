@@ -39,15 +39,13 @@ namespace DTO_QLCH
     {
         int MaHangHoa;
         string TenHangHoa;
-        string DanhMuc;
         string DonGia;
         int SoLuongTonKho;
 
-        public DTOQLHH(int MaHangHoa, string TenHangHoa, string DanhMuc, string DonGia, int SoLuongTonKho)
+        public DTOQLHH(int MaHangHoa, string TenHangHoa, string DonGia, int SoLuongTonKho)
         {
             this.MaHangHoa = MaHangHoa;
             this.TenHangHoa = TenHangHoa;
-            this.DanhMuc = DanhMuc;
             this.DonGia = DonGia;
             this.SoLuongTonKho = SoLuongTonKho;
         }
@@ -55,7 +53,6 @@ namespace DTO_QLCH
 
         public int maHangHoa { get => MaHangHoa; set => MaHangHoa = value; }
         public string tenHangHoa { get => TenHangHoa; set => TenHangHoa = value; }
-        public string danhMuc { get => DanhMuc; set => DanhMuc = value; }
         public string donGia { get => DonGia; set => DonGia = value; }
         public int soLuongTonKho { get => SoLuongTonKho; set => SoLuongTonKho = value; }
     }
@@ -140,6 +137,8 @@ namespace DTO_QLCH
         double SoTienGiam;
         string MoTa;
 
+        private string key_update;
+
         public DTOQLMGG(string IDMaGiamGia, string TenMaGiamGia, DateTime NgayBatDau, DateTime NgayKetThuc, double SoTienGiam, string MoTa)
         {
             this.IDMaGiamGia = IDMaGiamGia;
@@ -152,10 +151,13 @@ namespace DTO_QLCH
         public DTOQLMGG() { }
 
         public string idMaGiamGia { get => IDMaGiamGia; set => IDMaGiamGia = value; }
-        public string tenMaGiamGia { get => tenMaGiamGia; set => tenMaGiamGia = value; }
-        public DateTime ngayBatDau { get => ngayBatDau; set => ngayBatDau = value; }
+        public string tenMaGiamGia { get => TenMaGiamGia; set => TenMaGiamGia = value; }
+        public DateTime ngayBatDau { get => NgayBatDau; set => NgayBatDau = value; }
         public string moTa { get => MoTa; set => MoTa = value; }
-        public DateTime ngayKetThuc { get => ngayKetThuc; set => ngayKetThuc = value; }
+        public DateTime ngayKetThuc { get => NgayKetThuc; set => NgayKetThuc = value; }
+        public double soTienGiam { get => SoTienGiam; set => SoTienGiam = value;}
+        public string Key_update { get => key_update; set => key_update = value; }
+
     }
     public class DTOQLQD
     {

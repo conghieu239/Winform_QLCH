@@ -1,4 +1,4 @@
-﻿using BLLQLCH;
+﻿using BUS_QLCH;
 using DTO_QLCH;
 using System;
 using System.Collections.Generic;
