@@ -1,8 +1,0 @@
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\bin\Debug\DTOQLCH.exe.config
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\bin\Debug\DTOQLCH.exe
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\bin\Debug\DTOQLCH.pdb
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\obj\Debug\DTOQLCH.csproj.AssemblyReference.cache
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\obj\Debug\DTOQLCH.csproj.SuggestedBindingRedirects.cache
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\obj\Debug\DTOQLCH.csproj.CoreCompileInputs.cache
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\obj\Debug\DTOQLCH.exe
-D:\IT\C#\QuanLyCuaHang\DTOQLCH\obj\Debug\DTOQLCH.pdb
