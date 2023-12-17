@@ -1,0 +1,12 @@
+D:\IT\C#\QuanLyCuaHang\DALQLCH\bin\Debug\DALQLCH.exe.config
+D:\IT\C#\QuanLyCuaHang\DALQLCH\bin\Debug\DALQLCH.exe
+D:\IT\C#\QuanLyCuaHang\DALQLCH\bin\Debug\DALQLCH.pdb
+D:\IT\C#\QuanLyCuaHang\DALQLCH\bin\Debug\DTOQLCH.exe
+D:\IT\C#\QuanLyCuaHang\DALQLCH\bin\Debug\DTOQLCH.pdb
+D:\IT\C#\QuanLyCuaHang\DALQLCH\bin\Debug\DTOQLCH.exe.config
+D:\IT\C#\QuanLyCuaHang\DALQLCH\obj\Debug\DALQLCH.csproj.AssemblyReference.cache
+D:\IT\C#\QuanLyCuaHang\DALQLCH\obj\Debug\DALQLCH.csproj.SuggestedBindingRedirects.cache
+D:\IT\C#\QuanLyCuaHang\DALQLCH\obj\Debug\DALQLCH.csproj.CoreCompileInputs.cache
+D:\IT\C#\QuanLyCuaHang\DALQLCH\obj\Debug\DALQLCH.csproj.CopyComplete
+D:\IT\C#\QuanLyCuaHang\DALQLCH\obj\Debug\DALQLCH.exe
+D:\IT\C#\QuanLyCuaHang\DALQLCH\obj\Debug\DALQLCH.pdb

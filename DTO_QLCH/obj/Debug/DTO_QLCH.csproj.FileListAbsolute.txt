@@ -1,0 +1,6 @@
+D:\IT\C#\QuanLyCuaHang\DTO_QLCH\bin\Debug\DTO_QLCH.dll
+D:\IT\C#\QuanLyCuaHang\DTO_QLCH\bin\Debug\DTO_QLCH.pdb
+D:\IT\C#\QuanLyCuaHang\DTO_QLCH\obj\Debug\DTO_QLCH.csproj.AssemblyReference.cache
+D:\IT\C#\QuanLyCuaHang\DTO_QLCH\obj\Debug\DTO_QLCH.csproj.CoreCompileInputs.cache
+D:\IT\C#\QuanLyCuaHang\DTO_QLCH\obj\Debug\DTO_QLCH.dll
+D:\IT\C#\QuanLyCuaHang\DTO_QLCH\obj\Debug\DTO_QLCH.pdb

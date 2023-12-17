@@ -1,0 +1,11 @@
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\bin\Debug\BUS_QLCH.dll
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\bin\Debug\BUS_QLCH.pdb
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\bin\Debug\DAL_QLCH.dll
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\bin\Debug\DTO_QLCH.dll
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\bin\Debug\DAL_QLCH.pdb
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\bin\Debug\DTO_QLCH.pdb
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\obj\Debug\BUS_QLCH.csproj.AssemblyReference.cache
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\obj\Debug\BUS_QLCH.csproj.CoreCompileInputs.cache
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\obj\Debug\BUS_QLCH.csproj.CopyComplete
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\obj\Debug\BUS_QLCH.dll
+D:\IT\C#\QuanLyCuaHang\BUS_QLCH\obj\Debug\BUS_QLCH.pdb
