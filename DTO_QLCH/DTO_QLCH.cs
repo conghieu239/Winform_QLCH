@@ -62,6 +62,7 @@ namespace DTO_QLCH
         string HoTen;
         string Email;
         string SoDienThoai;
+        private string key_update;
 
         public DTOQLKH(int MaKhachHang, string HoTen, string Email, string SoDienThoai)
         {
@@ -76,6 +77,8 @@ namespace DTO_QLCH
         public string hoTen { get => HoTen; set => HoTen = value; }
         public string email { get => Email; set => Email = value; }
         public string soDienThoai { get => SoDienThoai; set => SoDienThoai = value; }
+        public string Key_update { get => key_update; set => key_update = value; }
+
     }
     public class DTOQLHD
     {
@@ -85,6 +88,7 @@ namespace DTO_QLCH
         DateTime NgayTao;
         string IDMaGiamGia;
         double TongTien;
+        private string key_update;
 
         public DTOQLHD(int MaKhachHang, int MaHoaDon, int MaNhanVien, DateTime NgayTao, string IDMaGiamGia, double TongTien)
         {
@@ -103,6 +107,8 @@ namespace DTO_QLCH
         public string idMaGiamGia { get => IDMaGiamGia; set => IDMaGiamGia = value; }
         public DateTime ngayTao { get => NgayTao; set => NgayTao = value; }
         public double tongTien { get => TongTien; set => TongTien = value; }
+        public string Key_update { get => key_update; set => key_update = value; }
+
     }
     public class DTOQLDH
     {
@@ -111,6 +117,8 @@ namespace DTO_QLCH
         int MaNhanVien;
         DateTime NgayDat;
         string TrangThai;
+                private string key_update;
+
 
         public DTOQLDH(int MaKhachHang, int MaDatHang, int MaNhanVien, DateTime NgayDat, string TrangThai)
         {
@@ -127,6 +135,8 @@ namespace DTO_QLCH
         public int maNhanVien { get => MaNhanVien; set => MaNhanVien = value; }
         public string trangThai { get => TrangThai; set => TrangThai = value; }
         public DateTime ngayDat { get => NgayDat; set => NgayDat = value; }
+        public string Key_update { get => key_update; set => key_update = value; }
+
     }
     public class DTOQLMGG
     {
@@ -164,6 +174,8 @@ namespace DTO_QLCH
         int MaQuyDinh;
         string TenQuyDinh;
         string MoTa;
+        private string key_update;
+
 
         public DTOQLQD(int MaQuyDinh, string TenQuyDinh, string MoTa)
         {
@@ -176,6 +188,20 @@ namespace DTO_QLCH
         public int maQuyDinh { get => MaQuyDinh; set => MaQuyDinh = value; }
         public string tenQuyDinh { get => TenQuyDinh; set => TenQuyDinh = value; }
         public string moTa { get => MoTa; set => MoTa = value; }
-    }
+        public string Key_update { get => key_update; set => key_update = value; }
 
+    }
+    public class DTOTaiKhoan
+    {
+        private string tendangnhap;
+        private string mkdangnhap;
+        public string Tendangnghap { get; set; }
+        public string Mkdangnhap { get; set; }
+        public DTOTaiKhoan(string tendangnghap, string mkdangnhap)
+        {
+            this.Tendangnghap = tendangnghap;
+            this.Mkdangnhap = mkdangnhap;
+        }
+        public DTOTaiKhoan() { }
+    }
 }

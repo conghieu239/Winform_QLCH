@@ -20,3 +20,10 @@ D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\bin\Debug\DAL_QLCH.pdb
 D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.csproj.CopyComplete
 D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormQuanLyKhuyenMai.resources
 D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormXemDoanhThu.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormQuanLyHoaDon.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormQuanLyKhachHang.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.DangKy.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.DangNhap.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormQuanLyQuyDinh.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormQuanLyDatHang.resources
+D:\IT\C#\QuanLyCuaHang\QuanLyCuaHang\obj\Debug\QuanLyCuaHang.Forms.FormChiTietHoaDon.resources

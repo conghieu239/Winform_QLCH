@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panelMenu = new System.Windows.Forms.Panel();
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.btnQuyDinh = new System.Windows.Forms.Button();
             this.btnKhuyenMai = new System.Windows.Forms.Button();
@@ -37,7 +37,6 @@
             this.btnKhachHang = new System.Windows.Forms.Button();
             this.btnDatHang = new System.Windows.Forms.Button();
             this.btnHoaDon = new System.Windows.Forms.Button();
-            this.panelMenu = new System.Windows.Forms.Panel();
             this.btnTrangChu = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -62,6 +61,16 @@
             this.panel1.Size = new System.Drawing.Size(200, 573);
             this.panel1.TabIndex = 0;
             // 
+            // panelMenu
+            // 
+            this.panelMenu.BackgroundImage = global::QuanLyCuaHang.Properties.Resources._5__4_;
+            this.panelMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMenu.Location = new System.Drawing.Point(200, 0);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(737, 573);
+            this.panelMenu.TabIndex = 1;
+            // 
             // btnNhanVien
             // 
             this.btnNhanVien.Cursor = System.Windows.Forms.Cursors.Default;
@@ -70,8 +79,9 @@
             this.btnNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhanVien.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.Color.White;
+            this.btnNhanVien.Image = global::QuanLyCuaHang.Properties.Resources.Quản_lý_nhân_viên;
             this.btnNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNhanVien.Location = new System.Drawing.Point(0, 494);
+            this.btnNhanVien.Location = new System.Drawing.Point(0, 499);
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Size = new System.Drawing.Size(200, 51);
             this.btnNhanVien.TabIndex = 8;
@@ -89,8 +99,9 @@
             this.btnQuyDinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuyDinh.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuyDinh.ForeColor = System.Drawing.Color.White;
+            this.btnQuyDinh.Image = global::QuanLyCuaHang.Properties.Resources.Quản_lý_qui_định;
             this.btnQuyDinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuyDinh.Location = new System.Drawing.Point(0, 443);
+            this.btnQuyDinh.Location = new System.Drawing.Point(0, 448);
             this.btnQuyDinh.Name = "btnQuyDinh";
             this.btnQuyDinh.Size = new System.Drawing.Size(200, 51);
             this.btnQuyDinh.TabIndex = 7;
@@ -98,6 +109,7 @@
             this.btnQuyDinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQuyDinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQuyDinh.UseVisualStyleBackColor = true;
+            this.btnQuyDinh.Click += new System.EventHandler(this.btnQuyDinh_Click);
             // 
             // btnKhuyenMai
             // 
@@ -107,8 +119,9 @@
             this.btnKhuyenMai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKhuyenMai.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhuyenMai.ForeColor = System.Drawing.Color.White;
+            this.btnKhuyenMai.Image = global::QuanLyCuaHang.Properties.Resources.Quản_lý_khuyến_mãi;
             this.btnKhuyenMai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhuyenMai.Location = new System.Drawing.Point(0, 392);
+            this.btnKhuyenMai.Location = new System.Drawing.Point(0, 397);
             this.btnKhuyenMai.Name = "btnKhuyenMai";
             this.btnKhuyenMai.Size = new System.Drawing.Size(200, 51);
             this.btnKhuyenMai.TabIndex = 6;
@@ -126,8 +139,9 @@
             this.btnDoanhThu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDoanhThu.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoanhThu.ForeColor = System.Drawing.Color.White;
+            this.btnDoanhThu.Image = global::QuanLyCuaHang.Properties.Resources.Xem_doanh_thu;
             this.btnDoanhThu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDoanhThu.Location = new System.Drawing.Point(0, 341);
+            this.btnDoanhThu.Location = new System.Drawing.Point(0, 346);
             this.btnDoanhThu.Name = "btnDoanhThu";
             this.btnDoanhThu.Size = new System.Drawing.Size(200, 51);
             this.btnDoanhThu.TabIndex = 5;
@@ -145,8 +159,9 @@
             this.btnKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKhachHang.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhachHang.ForeColor = System.Drawing.Color.White;
+            this.btnKhachHang.Image = global::QuanLyCuaHang.Properties.Resources.Quản_lý_khách_hàng;
             this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhachHang.Location = new System.Drawing.Point(0, 290);
+            this.btnKhachHang.Location = new System.Drawing.Point(0, 295);
             this.btnKhachHang.Name = "btnKhachHang";
             this.btnKhachHang.Size = new System.Drawing.Size(200, 51);
             this.btnKhachHang.TabIndex = 4;
@@ -154,6 +169,7 @@
             this.btnKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnKhachHang.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
             // 
             // btnDatHang
             // 
@@ -163,8 +179,9 @@
             this.btnDatHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDatHang.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDatHang.ForeColor = System.Drawing.Color.White;
+            this.btnDatHang.Image = global::QuanLyCuaHang.Properties.Resources.Quản_lý_đặt_hàng__1_;
             this.btnDatHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDatHang.Location = new System.Drawing.Point(0, 239);
+            this.btnDatHang.Location = new System.Drawing.Point(0, 244);
             this.btnDatHang.Name = "btnDatHang";
             this.btnDatHang.Size = new System.Drawing.Size(200, 51);
             this.btnDatHang.TabIndex = 3;
@@ -172,6 +189,7 @@
             this.btnDatHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDatHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDatHang.UseVisualStyleBackColor = true;
+            this.btnDatHang.Click += new System.EventHandler(this.btnDatHang_Click);
             // 
             // btnHoaDon
             // 
@@ -181,8 +199,9 @@
             this.btnHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHoaDon.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHoaDon.ForeColor = System.Drawing.Color.White;
+            this.btnHoaDon.Image = global::QuanLyCuaHang.Properties.Resources.Quản_lý_hóa_đơn;
             this.btnHoaDon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHoaDon.Location = new System.Drawing.Point(0, 188);
+            this.btnHoaDon.Location = new System.Drawing.Point(0, 193);
             this.btnHoaDon.Name = "btnHoaDon";
             this.btnHoaDon.Size = new System.Drawing.Size(200, 51);
             this.btnHoaDon.TabIndex = 2;
@@ -190,16 +209,7 @@
             this.btnHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHoaDon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHoaDon.UseVisualStyleBackColor = true;
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackgroundImage = global::QuanLyCuaHang.Properties.Resources.thiết_kế_cửa_hàng_tiền_lợi_18;
-            this.panelMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMenu.Location = new System.Drawing.Point(200, 0);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(737, 573);
-            this.panelMenu.TabIndex = 1;
+            this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
             // btnTrangChu
             // 
@@ -209,9 +219,9 @@
             this.btnTrangChu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTrangChu.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrangChu.ForeColor = System.Drawing.Color.White;
-            this.btnTrangChu.Image = ((System.Drawing.Image)(resources.GetObject("btnTrangChu.Image")));
+            this.btnTrangChu.Image = global::QuanLyCuaHang.Properties.Resources.Trang_chủ;
             this.btnTrangChu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTrangChu.Location = new System.Drawing.Point(0, 137);
+            this.btnTrangChu.Location = new System.Drawing.Point(0, 142);
             this.btnTrangChu.Name = "btnTrangChu";
             this.btnTrangChu.Size = new System.Drawing.Size(200, 51);
             this.btnTrangChu.TabIndex = 1;
@@ -223,10 +233,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::QuanLyCuaHang.Properties.Resources.âs;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 137);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 142);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 

@@ -9,7 +9,7 @@ namespace DAL_QLCH
 {
     public class DBConnect
     {
-        protected SqlConnection conn = new SqlConnection(@"Data Source=CONGHIEU;Initial Catalog=QLCH;Integrated Security=True");
+        protected SqlConnection conn = new SqlConnection(@"Data Source=CONGHIEU;Initial Catalog=QLCH2;Integrated Security=True");
 
     }
 }

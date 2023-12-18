@@ -55,5 +55,25 @@ namespace QuanLyCuaHang
         {
             OpenChildForm(new Forms.FormXemDoanhThu(), sender);
         }
+
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormQuanLyHoaDon(), sender);
+        }
+
+        private void btnKhachHang_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormQuanLyKhachHang(), sender);
+        }
+
+        private void btnQuyDinh_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormQuanLyQuyDinh(), sender);
+        }
+
+        private void btnDatHang_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormQuanLyDatHang(), sender);
+        }
     }
 }

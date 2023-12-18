@@ -33,6 +33,8 @@
             // 
             // panel1
             // 
+            this.panel1.BackgroundImage = global::QuanLyCuaHang.Properties.Resources._5__4_1;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";

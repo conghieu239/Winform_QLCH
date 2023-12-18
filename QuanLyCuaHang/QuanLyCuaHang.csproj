@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChiTietHoaDon.Designer.cs">
+      <DependentUpon>FormChiTietHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyDatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyDatHang.Designer.cs">
+      <DependentUpon>FormQuanLyDatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyHoaDon.Designer.cs">
+      <DependentUpon>FormQuanLyHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyKhachHang.Designer.cs">
+      <DependentUpon>FormQuanLyKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormQuanLyKhuyenMai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +93,12 @@
     </Compile>
     <Compile Include="Forms\FormQuanLyNhanVien.Designer.cs">
       <DependentUpon>FormQuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyQuyDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQuanLyQuyDinh.Designer.cs">
+      <DependentUpon>FormQuanLyQuyDinh.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormTrangChu.cs">
       <SubType>Form</SubType>
@@ -78,11 +120,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChiTietHoaDon.resx">
+      <DependentUpon>FormChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQuanLyDatHang.resx">
+      <DependentUpon>FormQuanLyDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQuanLyHoaDon.resx">
+      <DependentUpon>FormQuanLyHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQuanLyKhachHang.resx">
+      <DependentUpon>FormQuanLyKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormQuanLyKhuyenMai.resx">
       <DependentUpon>FormQuanLyKhuyenMai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormQuanLyNhanVien.resx">
       <DependentUpon>FormQuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQuanLyQuyDinh.resx">
+      <DependentUpon>FormQuanLyQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormTrangChu.resx">
       <DependentUpon>FormTrangChu.cs</DependentUpon>
@@ -134,6 +197,96 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\thiết-kế-cửa-hàng-tiền-lợi-18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang chủ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý hóa đơn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý đặt hàng %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý khách hàng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xem doanh thu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý khuyến mãi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý qui định.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quản lý nhân viên.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4986261431012_91cb7be96485e256bbea4f6c0cb3b6d2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4389077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trangchu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16054.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\407039567_331102963064676_5082364061668397634_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\411176271_690658736466878_6979712456636851886_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\410730279_923002569169408_5058128765913061002_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\âs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 %284%291.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
